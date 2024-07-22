@@ -1,0 +1,35 @@
+{
+  "test_name": "test_0",
+  "last_epoch_id": "00000000-0000-0000-0000-000000000000",
+  "match": [
+    {
+      "id": "",
+      "team": [
+        {
+          "side": "red",
+          "user": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "mmr": 2000,
+              "current_role": "top",
+              "roles": ["top", "mid", "bot", "sup", "jungle"],
+              "waiting_time": 12
+            }
+          ]
+        },
+        {
+          "side": "blue",
+          "user": [
+            {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "mmr": 1000,
+              "current_role": "mid",
+              "roles": ["top", "mid", "bot", "sup", "jungle"],
+              "waiting_time": 40
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "test_name": "test_0",
+  "epoch": "00000000-0000-0000-0000-000000000000",
+  "user": [
+    {
+      "id": "b604eea4-c6ea-4b1f-9f88-be02c2b7a5a5",
+      "mmr": 1024,
+      "roles": ["top", "mid", "bot", "sup", "jungle"],
+      "waitingTime": 30
+    },
+    {
+      "id": "b604eea4-c6ea-4b1f-9f88-be02c2b7a5a5",
+      "mmr": 1024,
+      "roles": ["top", "mid", "bot", "sup", "jungle"],
+      "waitingTime": 30
+    }
+  ]
+}
