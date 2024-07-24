@@ -1,0 +1,46 @@
+{
+  "definitions": {
+    "test_name": {"type": "string", "example": "test_0"},
+    "epoch": {
+      "type"   : "string"                              ,
+      "example": "00000000-0000-0000-0000-000000000000"
+    },
+    "user": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type"   : "string"                              ,
+            "example": "4877bf28-68a8-4f6c-84a8-707223e9237b"
+          },
+          "mmr": {"type": "integer", "format": "int32", "example": "2000"},
+          "roles": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "0": {"type": "string", "example": "t"},
+                "1": {"type": "string", "example": "o"},
+                "2": {"type": "string", "example": "p"},
+                "3": {"type": "string", "example": "g"},
+                "4": {"type": "string", "example": "l"},
+                "5": {"type": "string", "example": "e"}
+              }
+            },
+            "example": ["top", "jungle"]
+          },
+          "waitingTime": {"type": "integer", "format": "int32", "example": "12"}
+        }
+      },
+      "example": [
+        {
+          "id": "4877bf28-68a8-4f6c-84a8-707223e9237b",
+          "mmr": 2000,
+          "roles": ["top", "mid", "bot", "sup", "jungle"],
+          "waitingTime": 12
+        }
+      ]
+    }
+  }
+}
